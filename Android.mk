@@ -220,28 +220,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := aptxui
-LOCAL_MODULE_OWNER := asus
-LOCAL_SRC_FILES := proprietary/app/aptxui/oat/arm64/aptxui.odex
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .odex
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := aptxui
-LOCAL_MODULE_OWNER := asus
-LOCAL_SRC_FILES := proprietary/app/aptxui/oat/arm64/aptxui.vdex
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .vdex
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := datastatusnotification
 LOCAL_MODULE_OWNER := asus
 LOCAL_SRC_FILES := proprietary/app/datastatusnotification/datastatusnotification.apk
@@ -367,30 +345,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := PowerOffAlarm
-LOCAL_MODULE_OWNER := asus
-LOCAL_SRC_FILES := proprietary/vendor/app/PowerOffAlarm/oat/arm64/PowerOffAlarm.odex
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .odex
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := PowerOffAlarm
-LOCAL_MODULE_OWNER := asus
-LOCAL_SRC_FILES := proprietary/vendor/app/PowerOffAlarm/oat/arm64/PowerOffAlarm.vdex
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .vdex
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
